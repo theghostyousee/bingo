@@ -7,7 +7,7 @@ function App() {
   const [title, setTitle] = useState('Privacy');
 
   useEffect(() => {
-    const words = ['Bingo', '0xBingo', 'BingAIo', 'Bing@!X', 'BinLAXSg'];
+    const words = ['404ERROR', '0xBingo', 'BingAIo', 'Bing@!X', 'BinLAXSg', 'Bingo'];
     let currentIndex = 0;
 
     const updateTitle = () => {
